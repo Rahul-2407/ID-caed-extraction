@@ -1,1 +1,17 @@
-# ID-caed-extraction
+# ID-card-extraction
+
+The project is an AI-based system that captures an image of a student ID card using a webcam and automatically extracts important details such as student name, register number, department, batch number, and academic year using OCR technology.
+
+Abstract
+
+In many educational institutions, important student information such as name, register number, department, batch details, and academic year are printed on student ID cards. These details are often required for various administrative tasks such as attendance management, exam verification, library registration, and maintaining student records. Traditionally, this information is entered manually into computer systems, which is time-consuming and prone to human errors. Manual data entry can also lead to mistakes such as incorrect typing, missing information, and inconsistent records. Therefore, there is a need for an automated system that can quickly and accurately convert printed information on ID cards into digital format.
+
+This project presents an Artificial Intelligence (AI)-based system that automatically extracts student information from ID cards using a webcam. The system uses computer vision techniques to capture the image of an ID card in real time. The captured image is then processed using Optical Character Recognition (OCR), which is an AI technology capable of identifying and reading text from images. OCR models are trained using machine learning algorithms that allow the system to recognize letters and numbers from printed documents. This enables the system to understand the text written on the ID card without requiring manual input.
+
+After capturing the ID card image, the system processes the image to identify the text region and extract relevant information such as student name, register number, department, academic year, batch number, and college name. The extracted text is further analyzed using pattern recognition techniques to identify specific fields. For example, the system recognizes register numbers based on their format and identifies academic year patterns. This step ensures that the extracted information is meaningful and properly structured.
+
+Once the required details are identified, the system converts the extracted information into a structured digital format such as JSON and stores it in a database. The database allows the information to be accessed, managed, and used for various institutional purposes. The system also includes validation checks to ensure that incomplete or incorrect data is not stored. If the system is unable to detect certain information clearly, it prompts the user to rescan the ID card, thereby improving accuracy and reliability.
+
+The main advantage of this system is that it reduces the need for manual data entry and minimizes human errors. It also saves time by automating repetitive tasks. The system can be used in real-time applications such as student attendance systems, exam hall verification, library management systems, and digital record keeping. Unlike barcode-based systems, this approach does not require special machine-readable codes on the ID card and can work directly with printed text.
+
+In conclusion, the proposed AI-based ID card information extraction system demonstrates how artificial intelligence and computer vision can be used to automate the process of converting printed identity information into structured digital data. The system provides an efficient and flexible solution for institutions that need to manage large volumes of identity information quickly and accurately. This project highlights the practical application of AI technologies in improving administrative efficiency and supporting smart campus automation.
